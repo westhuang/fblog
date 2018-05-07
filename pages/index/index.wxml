@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <bolck wx:for="{{microBlogs}}" wx:for-index="idx" wx:for-item="blog">
+    <scroll-view>{{idx + 1}}. {{blog.time}}</scroll-view>
+  </bolck>
+
+</view>

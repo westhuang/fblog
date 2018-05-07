@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "家庭博客",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "/pages/pic/homeOff.png",
+        "selectedIconPath": "/pages/pic/homeOn.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "广场",
+        "iconPath": "/pages/pic/wordOff.png",
+        "selectedIconPath": "/pages/pic/wordOn.png"
+      }
+    ],
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "backgroundColor":"#ffffff",
+    "borderStyle": "black"
+  }
+}
